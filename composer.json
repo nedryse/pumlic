@@ -1,0 +1,30 @@
+{
+	"name": "nedryse/pumlic",
+	"description": "Set of PHP classes for work with UML.",
+	"type": "library",
+	"keywords": ["uml", "php"],
+	"license": "WYWPL",
+	"authors": [
+		{
+			"name": "Pavel Železný",
+			"email": "info@pavelzelezny.cz",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"docs": "http://github.com/nedryse/pumlic/README.md",
+		"issues": "https://github.com/nedryse/pumlic/issues",
+		"source": "https://github.com/nedryse/pumlic"
+	},
+	"require": {
+		"php": ">=5.6.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Pumlic\\": "src/Pumlic"
+		}
+	},
+	"require-dev": {
+		"dg/composer-cleaner": "^0.5.0"
+	}
+}

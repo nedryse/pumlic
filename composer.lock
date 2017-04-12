@@ -1,0 +1,67 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "fe9dee166ef8b93ee33d796c9b1a5314",
+    "content-hash": "32e41c9d98e8e6520f7e3eda6f4c77f3",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "dg/composer-cleaner",
+            "version": "v0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dg/composer-cleaner.git",
+                "reference": "38b86e3246c563a1fea63a0d4b89584f24830e3c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dg/composer-cleaner/zipball/38b86e3246c563a1fea63a0d4b89584f24830e3c",
+                "reference": "38b86e3246c563a1fea63a0d4b89584f24830e3c",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "nette/tester": "^1.7"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "DG\\ComposerCleaner\\Plugin"
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "David Grudl",
+                    "homepage": "https://davidgrudl.com"
+                }
+            ],
+            "description": "Victor The Cleaner: removes unnecessary files from vendor directory.",
+            "keywords": [
+                "composer"
+            ],
+            "time": "2017-03-21 02:22:09"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.6.0"
+    },
+    "platform-dev": []
+}
