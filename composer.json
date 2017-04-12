@@ -19,12 +19,18 @@
 	"require": {
 		"php": ">=5.6.0"
 	},
+	"require-dev": {
+		"dg/composer-cleaner": "^0.5.0",
+		"phpunit/phpunit": "^5.6.4"
+	},
 	"autoload": {
 		"psr-4": {
 			"Pumlic\\": "src/Pumlic"
 		}
 	},
-	"require-dev": {
-		"dg/composer-cleaner": "^0.5.0"
+	"autoload-dev": {
+		"psr-4": {
+			"Pumlic\\": "tests/Pumlic"
+		}
 	}
 }
